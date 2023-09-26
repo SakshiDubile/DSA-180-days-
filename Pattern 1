@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int row,col,n;
+    cout<<"Enter the number of rows and columns:"<<endl;
+    cin>>row;
+    cin>>col;
+    cout<<"Enter the number you want in pattern:"<<endl;
+    cin>>n;
+    
+    for(int i=0;i<row;++i){
+        for(int j=0;j<col;++j){
+            cout<<n<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
