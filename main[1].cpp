@@ -12,12 +12,15 @@ using namespace std;
 
 int main()
 {
-   int row ,col;
-   for(row=0;row<5;row++){
-       for(col=0;col<=row;col++){
-           cout<<row+1<<" ";
-       }
-       cout<<endl;
-   }
+    int row,col;
+    char c='a';
+    for(row=0;row<5;row++){
+        for(col=0;col<=row;col++){
+            cout<<c<<" ";
+            
+        }
+        c++;
+        cout<<endl;
+    }
     return 0;
 }
